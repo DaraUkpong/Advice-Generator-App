@@ -79,7 +79,7 @@ There will be future adaptations of this project using other fronnt-end technolo
 ## Author
 
 - Website - [DaraTheDev](https://daraukpong.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DaraUkpong)
+- Frontend Mentor - [@DaraUkpong](https://www.frontendmentor.io/profile/DaraUkpong)
 - Twitter - [@darathedev](https://www.twitter.com/darathedev)
 
 
