@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+:root {
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+    --grayishBlue: hsl(217, 19%, 38%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.board,
+.box,
+.diceCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--darkBlue);
+}
+
+.box {
+    width: 28vw;
+    border: 1px solid var(--darkGrayishBlue);
+    background-color: var(--darkGrayishBlue);
+    text-align: center;
+    padding: 3rem 3rem 0 3rem;
+    border-radius: 0.7rem;
+}
+
+.dividerDesktop {
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+.dividerMobile {
+    display: none;
+}
+
+.diceCircle {
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    bottom: -5vh;
+    background-color: var(--neonGreen);
+    border-radius: 50%;
+}
+
+.diceCircle:hover {
+    box-shadow: 0px 5px 50px -3px var(--neonGreen);
+}
+
+#adviceId {
+    color: var(--neonGreen);
+}
+
+#adviceText {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--lightCyan);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1vh;
+    color: var(--lightCyan);
+    font-size: 11px;
+}
+
+a:link {
+    color: var(--lightCyan);
+}
+
+a:hover {
+    color: var(--neonGreen);
+}
+
+@media screen and (max-width:420px) {
+    .box {
+        width: 50%;
+    }
+    .dividerMobile {
+        width: 15rem;
+    }
+    .dividerDesktop {
+        display: none;
+    }
+    .dividerMobile {
+        display: block;
+    }
+}
