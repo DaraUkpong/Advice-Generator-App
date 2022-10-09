@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View here](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [View here🚀](https://www.frontendmentor.io/solutions/advice-generator-app-hX1zjBb4aX)
+- Live Site URL: [Live Site✨️](https://github.com/DaraUkpong/Advice-Generator-App.git)
 
 ## My process
 
@@ -63,7 +63,7 @@ function getAdvice() {
             adviceLine.textContent = data.advice;
             adviceId.textContent = data.id;
         })
-// (Cha-Ching!)
+// (Cha-Ching!✨️)
 
 
 }
